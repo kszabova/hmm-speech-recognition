@@ -1,0 +1,10 @@
+$pronoun = I | YOU | WE | THEY;
+$det = A | THE;
+$adjective = RAINY | SMILING | CONFUSED | UGLY | YOUTHFUL | GIANT | PAINFUL;
+$noun = NIGHT | DOG | FLOWER | BOOK | WINDOW | CITY;
+$verbt = GRABBED | CHOSE | FORGOT | MENTIONED;
+$verbi = FELL | CRIED | READ | SANG | RAN | ENDED;
+$object = US | HORSES | EVERYTHING;
+$adverb = YESTERDAY | QUICKLY | AGAIN;
+( ( $pronoun | ( $det [ $adjective ] $noun ) ) ( ( $verbt $object ) | $verbi ) [ $adverb ] )
+
