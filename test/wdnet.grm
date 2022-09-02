@@ -1,0 +1,8 @@
+$det = A | THE;
+$noun1 = CAT | DOG | GIRL | BOY | CLOUD | TEACHER | QUEEN | ROBOT | PILOT | THIEF;
+$noun2 = HOUSE | CHAIR | PAINTING | BOOK | CAR | GLASS | WINDOW;
+$adjective = HUNGRY | SMALL | QUICK | SURPRISED | HAPPY | TIRED | FORMER | BELOVED | EXCITED;
+$verbt = RECOMMENDED | BROKE | PAINTED | SAW | LOVED | KNEW | ENJOYED | LEFT | ARRANGED | REMEMBERED;
+$verbi = SLEPT | CRIED | LAUGHED | ARRIVED | READ | SANG | DANCED | ATE | HURRIED | RESTED;
+$adverb = YESTERDAY | AT NIGHT | AT HOME | CALMLY | EARLY | QUICKLY | SLOWLY | ALONE;
+( ( $det [ $adjective ] $noun1 ) ( $verbi | ( $verbt $det $noun2 ) ) [ $adverb ] )
